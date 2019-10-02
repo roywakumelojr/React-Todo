@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Satisfy&display=swap');
+
+.container {
+    background-image: url('https://images.unsplash.com/photo-1533628635777-112b2239b1c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.todo-list {
+    padding-top: 20px;
+}
+
+.item.completed {
+    text-decoration: line-through;
+    cursor: pointer;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+.todo-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    cursor: pointer;
+}
